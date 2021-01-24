@@ -208,6 +208,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openDialog()
     {
+        int check = 1;
         Dialog dialog = new Dialog();
         dialog.show(getSupportFragmentManager() , "");
     }
